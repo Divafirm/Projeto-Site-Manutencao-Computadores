@@ -1,0 +1,23 @@
+main{
+    background-color: #223366;
+    color: white;
+}
+.barraSup{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.containerBarraSup div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.containerMenu div{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
