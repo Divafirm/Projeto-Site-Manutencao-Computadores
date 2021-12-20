@@ -1,6 +1,7 @@
 main{
     background-color: #223366;
     color: white;
+    padding-bottom: 5px;
 }
 img{
     max-width: 100%;
@@ -47,11 +48,27 @@ footer{
     gap: 20px;
     padding: 20px;
 }
+.containerInfo{
+    display: grid;
+    grid-template-columns: 0.2fr 6fr 0.2fr;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
 .principal{
     grid-column: 2;
 }
 .texto{
+    margin: 10px;
+}
+.texto p{
     text-align: justify;
+    font-size: 24px;
+    margin: 0 0;
+}
+.texto ul{
+    font-size: 40px;
+    margin: 20px auto;
 }
 .containerRodape {
     display: grid;  
@@ -70,6 +87,14 @@ footer{
     grid-column: 2;
     text-align: center;
 }
+.titulo{
+    padding: 30px 40px;
+}
+.mapaSite h2{
+    color:white;
+    padding: 10px;
+    margin-left: 30px;
+}
 .mapaSite li{
     text-align: center;
     display: inline-block;
@@ -77,7 +102,7 @@ footer{
     color: white;
 }
 .mapaSite :hover{
-    color: gray;
+    color: darkgray;
 }
 .sociais{
     font-size: 20px;
