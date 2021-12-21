@@ -57,6 +57,7 @@ footer{
 }
 .principal{
     grid-column: 2;
+    text-align: center;
 }
 .texto{
     margin: 10px;
