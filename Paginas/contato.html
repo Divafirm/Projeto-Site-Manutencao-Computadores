@@ -33,7 +33,7 @@
             <div class="containerContato">
                 <div class="contato">
                     <div class="titulo"><h1>Contato</h1></div>
-                    <form class="contato">
+                    <form name="contato" class="contato">
                         <label for="nome">Nome*</label><br>
                         <input type="text" id="nome" name="nome" placeholder="Seu Nome"><br><br>
                         <label for="email">Email*</label><br>
@@ -49,13 +49,13 @@
                             <option value="Outros Anúncios">Outros Anúncios</option>
                             <option value="Facebook">Facebook</option>
                             <option value="Twitter">Twitter</option>
-                            <option value="Google+">Tiktok</option>
+                            <option value="Google+">LinkedIn</option>
                             <option value="Indicação">Indicação</option>
                             <option value="Outros">Outros</option>
                         </select><br><br>
                         <label for="mens">Mensagem*</label><br>
                         <textarea id="mens" name="mens" rows="10" cols="73"></textarea>
-                        <button type="submit" class="btn btn-light">Enviar</button>
+                        <button type="submit" class="btn btn-light" onclick="enviar()">Enviar</button>
                     </form>
                 </div>
                 <div class ="textoContato">
@@ -114,6 +114,7 @@
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>   
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="../js/script.js"></script>
     </body>
 </html>

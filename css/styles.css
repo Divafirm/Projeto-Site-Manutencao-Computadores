@@ -201,10 +201,12 @@ form{
     grid-row: 2;  
 }
 .aCliente form{
-    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 .aTecnica form{
-    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 .containerSolucao{
     display: flex;
